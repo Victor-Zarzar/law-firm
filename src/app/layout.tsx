@@ -6,7 +6,7 @@ import Layout from "./components/Layout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Escritório Baptista e Almeida Advogados Associados",
+  title: "Escritório Baptista & Almeida Advogados Associados",
   description: "Criado por Victor Zarzars",
 };
 
@@ -16,10 +16,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <Layout>
+
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Layout>
+          {children}
+        </Layout>
+      </body>
     </html>
-    </Layout>
   );
 }

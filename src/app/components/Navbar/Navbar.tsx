@@ -1,7 +1,49 @@
-import React from 'react'
+import { useState } from "react";
+import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
+
+  const [open, setOpen] = useState(false);
+
+  const Links = [
+    { name: "Início", link: "/" },
+    { name: "Sobre", link: "sobre" },
+    { name: "Contato", link: "contato" },
+  ];
+
   return (
-    <div>Navbar</div>
-  )
-}
+    <div className="w-full max-w-[95rem]">
+      <div className="md:flex items-center justify-between py-5 md:px-10 px-6">
+        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
+          <span className="text-lg md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none pl-6 md:pl-2 lg:pl-10">Escritório Baptista & Almeida Advogados Associados</span>
+          <Image
+            src="/"
+            alt=""
+            width={25}
+            height={20}
+            priority
+            className="h-8 w-7 md:w-8 md:h-8 lg:w-8 lg:h-8 ml-1"
+          />
+        </div>
+        <div
+          onClick={() => setOpen(!open)}
+          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-gray-400">
+          {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
+        </div>
+        <ul
+          className={`md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto mt-4 md:mt-0 md:pl-0 pl-0 transition-all duration-500 ease-in text-center ${open ? "top-10" : "top-[-490px]"} ${open ? "h-screen flex flex-col justify-center items-center" : ""} $"bg-black"`}>
+          {Links.map((link) => (
+            <li className="md:ml-8 text-center md:my-0 my-5 font-semibold" key={link.name}>
+              <Link href={`/${link.link}`} passHref>
+                <div className="text-lg md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none duration-500">{link.name}</div>
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  );
+};
+
