@@ -17,14 +17,14 @@ export default function Navbar() {
     <div className="w-full max-w-[95rem]">
       <div className="md:flex items-center justify-between py-5 md:px-10 px-6">
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <span className="text-lg md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none pl-6 md:pl-2 lg:pl-10">Escritório Baptista & Almeida Advogados Associados</span>
+          <span className="text-lg md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none pl-6 md:pl-2 lg:pl-10">Baptista & Almeida Advogados Associados</span>
           <Image
-            src="/"
-            alt=""
+            src="/law.png"
+            alt="law"
             width={25}
             height={20}
             priority
-            className="h-8 w-7 md:w-8 md:h-8 lg:w-8 lg:h-8 ml-1"
+            className="h-8 w-8 md:w-10 md:h-10 lg:w-12 lg:h-12 ml-1"
           />
         </div>
         <div
