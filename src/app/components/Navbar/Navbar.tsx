@@ -17,7 +17,7 @@ export default function Navbar() {
     <div className="w-full max-w-[95rem]">
       <div className="md:flex items-center justify-between py-5 md:px-10 px-6">
         <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <span className="text-lg md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none pl-6 md:pl-2 lg:pl-10">Baptista & Almeida Advogados Associados</span>
+          <span className="text-sm md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none pl-0 md:pl-2 lg:pl-10">Baptista & Almeida Advogados Associados</span>
           <Image
             src="/law.png"
             alt="law"
