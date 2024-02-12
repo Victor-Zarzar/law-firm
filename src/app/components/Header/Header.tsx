@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import React from 'react'
 import CardHome from '../Card/CardHome'
+import Expertise from '../Expertise/Expertise'
 
 export default function Header() {
 
   const videoHomeScreen = "/homescreen.mp4"
 
   return (
-    <div className='h-[150vh]'>
+    <div className='h-[230vh]'>
       <div className='relative flex justify-center items-center'>
         <video
           autoPlay
@@ -30,6 +31,7 @@ export default function Header() {
         </div>
       </div>
       <CardHome />
+      <Expertise />
     </div>
   )
 }
