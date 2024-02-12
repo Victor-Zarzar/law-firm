@@ -1,12 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
+import CardHome from '../Card/CardHome'
 
 export default function Header() {
 
   const videoHomeScreen = "/homescreen.mp4"
 
   return (
-    <div className='h-screen'>
+    <div className='h-[150vh]'>
       <div className='relative flex justify-center items-center'>
         <video
           autoPlay
@@ -21,13 +22,14 @@ export default function Header() {
           <Image
             src="/logo.png"
             alt="logo"
-            width={200}
-            height={160}
+            width={400}
+            height={400}
             priority
             className="h-8 w-8 md:w-10 md:h-10 lg:w-[35rem] lg:h-[35rem]"
           />
         </div>
       </div>
+      <CardHome />
     </div>
   )
 }

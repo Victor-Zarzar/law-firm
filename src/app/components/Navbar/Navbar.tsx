@@ -14,22 +14,21 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="w-full max-w-[95rem]">
-      <div className="md:flex items-center justify-between py-5 md:px-10 px-6">
-        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1">
-          <span className="text-sm md:text-lg lg:text-xl hover:text-gray-600 focus:outline-none pl-0 md:pl-2 lg:pl-10">Baptista & Almeida Advogados Associados</span>
+    <div className="w-full max-w-[95rem] h-16 md:h-20">
+      <div className="md:flex items-center justify-between py-4 md:py-0 md:px-10 px-6">
+        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1 ml-10 md:ml-40">
           <Image
             src="/law.png"
             alt="law"
-            width={25}
-            height={20}
+            width={300}
+            height={300}
             priority
-            className="h-8 w-8 md:w-10 md:h-10 lg:w-12 lg:h-12 ml-1"
+            className="h-8 w-8 md:w-10 md:h-10 lg:w-20 lg:h-20"
           />
         </div>
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-gray-400">
+          className="absolute right-8 top-5 cursor-pointer md:hidden w-7 h-7 text-gray-400">
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>
         <ul
