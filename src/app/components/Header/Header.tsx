@@ -8,7 +8,7 @@ export default function Header() {
   const videoHomeScreen = "/homescreen.mp4"
 
   return (
-    <div className='h-[230vh]'>
+    <div className='h-auto md:h-[230vh] w-full'>
       <div className='relative flex justify-center items-center'>
         <video
           autoPlay
