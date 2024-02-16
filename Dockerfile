@@ -6,10 +6,10 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install --maxsockets=2 --loglevel verbose
+RUN pnpm install --maxsockets=2 --loglevel verbose
 
 COPY . .
 
 EXPOSE 3000
 
-CMD npm run dev
+CMD pnpm run dev
