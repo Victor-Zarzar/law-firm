@@ -4,12 +4,14 @@ RUN mkdir -p /app
 
 WORKDIR /app
 
-COPY package*.json ./
+COPY package*.json pnpm-lock.yaml* ./
 
-RUN pnpm install --maxsockets=2 --loglevel verbose
+RUN npm install -g pnpm
+
+RUN pnpm install
 
 COPY . .
 
 EXPOSE 3000
 
-CMD pnpm run dev
+CMD ["pnpm", "run", "dev"]
