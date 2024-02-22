@@ -45,3 +45,8 @@ Clear the stack:
 For the stack:
    
     make down
+
+<p align="center">
+  <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/d68c0225-5297-462f-a3c8-b11ceba63e27" width="1000" height="500" alt="Screenshot 2024-01-20 at 01 04 13">
+</p>
+    
