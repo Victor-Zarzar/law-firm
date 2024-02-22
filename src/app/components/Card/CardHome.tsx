@@ -15,7 +15,7 @@ export default function CardHome() {
             <div className='container card mt-10'>
                 <Card className="w-[150vh] h-[75vh] mx-auto mb-20">
                     <CardHeader>
-                        <CardDescription className='text-center text-2xl'>Sobre nós:</CardDescription>
+                        <CardDescription className='text-center text-2xl font-bold text-black'>Sobre nós:</CardDescription>
                     </CardHeader>
                     <CardContent className="flex">
                         <div className="flex-none w-auto h-auto">

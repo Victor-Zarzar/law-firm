@@ -5,28 +5,25 @@ import Expertise from '../Expertise/Expertise'
 
 export default function Header() {
 
-  const videoHomeScreen = "/homescreen.mp4"
-
   return (
-    <div className='h-auto md:h-[230vh] w-full'>
-      <div className='relative flex justify-center items-center'>
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className='w-full max-h-[50vh] object-cover'>
-          <source src={videoHomeScreen} type="video/mp4" />
-          Seu navegador não suporta vídeos.
-        </video>
-        <div className="absolute left-40">
+    <div className='relative justify-center'>
+      <div className='flex justify-center items-center'>
+      <Image
+            src="/banner.png"
+            alt="logo"
+            width={800}
+            height={400}
+            priority
+            className="h-44 w-full md:w-10 md:h-10 lg:w-full lg:h-[35rem]"
+          />
+        <div className="absolute left-2 md:left-40">
           <Image
             src="/logo.png"
             alt="logo"
             width={400}
-            height={400}
+            height={800}
             priority
-            className="h-8 w-8 md:w-10 md:h-10 lg:w-[35rem] lg:h-[35rem]"
+            className="h-40 w-40 md:w-10 md:h-10 lg:w-[35rem] lg:h-[35rem]"
           />
         </div>
       </div>
