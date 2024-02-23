@@ -15,7 +15,7 @@ export default function Expertise() {
             <h1 className="text-center text-lg md:text-2xl mb-6">Nossas áreas de atuação:</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-wrap justify-content-space-between">
                 <div className="md:col-span-1">
-                    <Card className="w-full h-[20vh] mb-10">
+                    <Card className="w-full h-[20vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardDescription className="text-center text-xl">Direito Trabalhista</CardDescription>
                         </CardHeader>
@@ -33,7 +33,7 @@ export default function Expertise() {
                             <Button variant="outline">Content...</Button>
                         </CardFooter>
                     </Card>
-                    <Card className="w-full h-[20vh] mb-10">
+                    <Card className="w-full h-[20vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardDescription className="text-center text-xl">Direito Cível</CardDescription>
                         </CardHeader>
@@ -51,7 +51,7 @@ export default function Expertise() {
                             <Button variant="outline">Content...</Button>
                         </CardFooter>
                     </Card>
-                    <Card className="w-full h-[20vh] mb-10">
+                    <Card className="w-full h-[20vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardDescription className="text-center text-xl">Direito Tributário</CardDescription>
                         </CardHeader>

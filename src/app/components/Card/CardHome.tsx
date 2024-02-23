@@ -13,7 +13,7 @@ export default function CardHome() {
     return (
         <div>
             <div className='container card mt-10'>
-                <Card className="w-[150vh] h-[75vh] mx-auto mb-20">
+                <Card className="w-[150vh] h-[75vh] mx-auto mb-20 duration-300 hover:scale-105 hover:shadow-xl">
                     <CardHeader>
                         <CardDescription className='text-center text-2xl font-bold text-black'>Sobre nós:</CardDescription>
                     </CardHeader>

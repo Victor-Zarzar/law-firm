@@ -9,7 +9,7 @@ export default function Navbar() {
 
   const Links = [
     { name: "Início", link: "/" },
-    { name: "Sobre", link: "sobre" },
+    { name: "Áreas de Atuação", link: "areasdeatuacao" },
     { name: "Contato", link: "contato" },
   ];
 
