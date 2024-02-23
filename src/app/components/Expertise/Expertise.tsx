@@ -69,6 +69,24 @@ export default function Expertise() {
                             <Button variant="outline">Content...</Button>
                         </CardFooter>
                     </Card>
+                    <Card className="w-full h-[20vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
+                        <CardHeader>
+                            <CardDescription className="text-center text-xl">Direito Tributário</CardDescription>
+                        </CardHeader>
+                        <CardContent>
+                            <Image
+                                src="/direitoprevidenciario.jpg"
+                                alt="direitoprevidenciario"
+                                width={400}
+                                height={400}
+                                priority
+                                className="h-8 w-8 md:w-28 md:h-28"
+                            />
+                        </CardContent>
+                        <CardFooter className="flex float-right">
+                            <Button variant="outline">Content...</Button>
+                        </CardFooter>
+                    </Card>
                 </div>
                 <div className="md:col-span-1 text-justify flex items-center ml-20">
                     <h1>
