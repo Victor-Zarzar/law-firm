@@ -44,7 +44,7 @@ export default function Areasofexpertise() {
                 <div>
                     <Card className="w-[350px] h-[220px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
-                            <CardTitle className='text-center text-sm md:text-xl'>Direito Cível</CardTitle>
+                            <CardTitle className='text-center text-sm md:text-xl'>Direito Civil</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <Image
