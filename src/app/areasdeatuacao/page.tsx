@@ -20,7 +20,7 @@ export default function Areasofexpertise() {
             </div>
             <div className='grid-cols-1 sm:grid md:grid-cols-2 md:container justify-center mt-8 md:mt-16'>
                 <div>
-                    <Card className="w-[350px] h-[200px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="w-[350px] h-[220px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardTitle className='text-center text-sm md:text-xl'>Direito do Trabalho</CardTitle>
                         </CardHeader>
@@ -31,7 +31,7 @@ export default function Areasofexpertise() {
                                 width={400}
                                 height={400}
                                 priority
-                                className="h-12 w-28 md:w-96 md:h-36 mx-auto"
+                                className="h-16 w-48 md:w-96 md:h-36 mx-auto"
                             />
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
@@ -42,7 +42,7 @@ export default function Areasofexpertise() {
                     </Card>
                 </div>
                 <div>
-                    <Card className="w-[350px] h-[200px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="w-[350px] h-[220px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardTitle className='text-center text-sm md:text-xl'>Direito Cível</CardTitle>
                         </CardHeader>
@@ -53,7 +53,7 @@ export default function Areasofexpertise() {
                                 width={400}
                                 height={400}
                                 priority
-                                className="h-12 w-28 md:w-96 md:h-36 mx-auto"
+                                className="h-16 w-48 md:w-96 md:h-36 mx-auto"
                             />
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
@@ -64,7 +64,7 @@ export default function Areasofexpertise() {
                     </Card>
                 </div>
                 <div>
-                    <Card className="w-[350px] h-[200px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-16 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="w-[350px] h-[220px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-16 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardTitle className='text-center text-sm md:text-xl'>Direito Tributário</CardTitle>
                         </CardHeader>
@@ -75,7 +75,7 @@ export default function Areasofexpertise() {
                                 width={400}
                                 height={400}
                                 priority
-                                className="h-12 w-28 md:w-96 md:h-36 mx-auto"
+                                className="h-16 w-48 md:w-96 md:h-36 mx-auto"
                             />
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
@@ -86,7 +86,7 @@ export default function Areasofexpertise() {
                     </Card>
                 </div>
                 <div>
-                    <Card className="w-[350px] h-[200px] md:w-[600px] md:h-[320px] mx-auto mb-4 md:mb-16 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="w-[350px] h-[220px] md:w-[600px] md:h-[320px] mx-auto mb-8 md:mb-16 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
                             <CardTitle className='text-center text-sm md:text-xl'>Direito Previdenciário</CardTitle>
                         </CardHeader>
@@ -97,7 +97,7 @@ export default function Areasofexpertise() {
                                 width={400}
                                 height={400}
                                 priority
-                                className="h-12 w-28 md:w-96 md:h-36 mx-auto"
+                                className="h-16 w-48 md:w-96 md:h-36 mx-auto"
                             />
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">

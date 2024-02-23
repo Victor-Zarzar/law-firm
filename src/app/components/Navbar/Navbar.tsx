@@ -23,7 +23,7 @@ export default function Navbar() {
             width={300}
             height={300}
             priority
-            className="h-8 w-8 md:w-10 md:h-10 lg:w-20 lg:h-20"
+            className="h-9 w-10 md:w-10 md:h-10 lg:w-20 lg:h-20"
           />
         </div>
         <div
