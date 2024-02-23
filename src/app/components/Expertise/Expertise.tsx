@@ -98,7 +98,7 @@ export default function Expertise() {
                     </Card>
                 </div>
                 <div className="md:col-span-1 text-center md:text-justify flex text-sm md:text-lg items-center ml-0 md:ml-20 mb-10">
-                    <h1>
+                    <h1 className="text-black">
                         Priorizamos o atendimento humanizado e personalizado, esse é o nosso diferencial, que apesar do Escritório ser Digital, optamos sempre que possível, dentro das possibilidades dos nossos clientes, pelo atendimento presencial ou por videoconferência.
                         Oferecemos suporte via WhatsApp todos os dias da semana para sanar eventuais dúvidas e esclarecer andamentos processuais relevantes.
                     </h1>
