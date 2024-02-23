@@ -32,7 +32,7 @@ export default function Navbar() {
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </div>
         <ul
-          className={`md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto mt-4 md:mt-0 md:pl-0 pl-0 transition-all duration-500 ease-in text-center ${open ? "top-10" : "top-[-490px]"} ${open ? "h-screen flex flex-col justify-center items-center" : ""} $"bg-black"`}>
+          className={`md:flex md:items-center md:pb-0 absolute md:static md:z-auto z-10 left-0 w-full md:w-auto mt-4 md:mt-0 md:pl-0 pl-0 transition-all duration-500 ease-in text-center ${open ? "top-10" : "top-[-490px]"} ${open ? "h-screen flex flex-col justify-center items-center bg-red-800" : ""} $"bg-black"`}>
           {Links.map((link) => (
             <li className="md:ml-8 text-center md:my-0 my-5 font-semibold" key={link.name}>
               <Link href={`/${link.link}`} passHref>
