@@ -4,8 +4,10 @@ import {
     Card,
     CardContent,
     CardDescription,
+    CardFooter,
     CardHeader,
 } from "@/components/ui/card"
+import CardPopover from '../CardPopover/CardPopover'
 
 export default function CardHome() {
     return (
@@ -35,6 +37,11 @@ export default function CardHome() {
                             </h1>
                         </div>
                     </CardContent>
+                    <CardFooter>
+                        <div className='flex justify-center items-center mx-auto md:hidden'>
+                            <CardPopover />
+                        </div>
+                    </CardFooter>
                 </Card>
             </div>
         </div>
