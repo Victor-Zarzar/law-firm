@@ -11,7 +11,7 @@ export default function NotFound404() {
           <p className="text-2xl md:text-3xl lg:text-5xl font-bold tracking-wider text-black mt-4">Página não encontrada</p>
           <p className="text-gray-900 mt-4 pb-4 border-b-2 text-center">Desculpe, a página que você está procurando não foi encontrada.</p>
           <Link href="/">
-            <Button className='mt-4 w-24 md:w-40 bg-red-800 hover:bg-red-900'>Voltar Início</Button>
+            <Button className='mt-4 w-24 md:w-40 bg-red-800 hover:bg-red-900'>Voltar Para Início</Button>
           </Link>
         </div>
       </div>
