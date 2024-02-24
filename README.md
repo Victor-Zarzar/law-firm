@@ -51,3 +51,11 @@ For the stack:
   <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/d3907146-b487-4759-b8bd-78ed06872a68" width="1000" height="500" alt="Screenshot 2024-01-20 at 01 04 13">
 </p>
 
+<p align="center">
+  <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/a54d91ba-38df-4390-b17f-76032bbe927a" alt="Screenshot 2024-02-22 13-19-06" width="270px" height="450px"> 
+  <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/4bf82fb6-b722-4eb5-9f76-3a34ca64a649" alt="Screenshot 2024-02-22 13-20-00" width="270px" height="450px">
+  <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/1904a1fe-780d-4749-b9d1-b07f4ba7ca7e" alt="Screenshot 2024-02-22 13-20-00" width="270px" height="450px">
+</p>
+
+
+
