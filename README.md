@@ -52,7 +52,7 @@ For the stack:
 </p>
 
 <p align="center">
-  <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/a54d91ba-38df-4390-b17f-76032bbe927a" alt="Screenshot 2024-02-22 13-19-06" width="270px" height="450px"> 
+  <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/eaa0bfc6-f7d1-45d4-aaff-4bccc4291431" alt="Screenshot 2024-02-22 13-19-06" width="270px" height="450px"> 
   <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/4bf82fb6-b722-4eb5-9f76-3a34ca64a649" alt="Screenshot 2024-02-22 13-20-00" width="270px" height="450px">
   <img src="https://github.com/Victor-Zarzar/law-firm/assets/114430780/1904a1fe-780d-4749-b9d1-b07f4ba7ca7e" alt="Screenshot 2024-02-22 13-20-00" width="270px" height="450px">
 </p>

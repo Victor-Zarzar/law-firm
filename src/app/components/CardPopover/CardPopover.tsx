@@ -14,7 +14,7 @@ export default function CardPopover() {
                 <PopoverTrigger asChild>
                     <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900'>Ler Mais...</Button>
                 </PopoverTrigger>
-                <PopoverContent className="w-80">
+                <PopoverContent className="w-[23rem] translate-y-56">
                     <h1 className='text text-sm text-center'>
                         O escritório de advocacia Baptista & Almeida Advogados Associados é uma instituição renomada com ampla experiência no campo jurídico, comprometida em oferecer soluções legais eficazes e personalizadas. Fundado em 2021, por um grupo de advogados especializados em diversas áreas do direito, nosso escritório tem como missão defender os interesses de nossos clientes com integridade, profissionalismo e dedicação.
                         Localizado em Porto Alegre, Rio Grande do Sul, Baptista & Almeida Advogados Associados possui uma equipe altamente qualificada de profissionais, incluindo especialistas em Direito Civil, Empresarial, Trabalhista, Ambiental, entre outros, garantindo um atendimento abrangente e especializado. Nossa prática jurídica é orientada pela ética, transparência e pelo compromisso em buscar as melhores estratégias legais para cada caso.
