@@ -13,7 +13,7 @@ import Link from 'next/link'
 export default function Expertise() {
     return (
         <div className="md:container mx-auto mt-10">
-            <h1 className="text-center text-sm md:text-2xl mb-16">Nossas áreas de atuação:</h1>
+            <h1 className="text-center text-xl md:text-2xl font-bold mb-16">Nossas áreas de atuação:</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-wrap justify-content-space-between">
                 <div className="md:col-span-1">
                     <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
@@ -97,7 +97,7 @@ export default function Expertise() {
                         </CardFooter>
                     </Card>
                 </div>
-                <div className="md:col-span-1 text-center md:text-justify flex text-sm md:text-lg items-center ml-0 md:ml-20 mb-10">
+                <div className="md:col-span-1 container text-justify md:text-justify flex text-sm md:text-lg items-center ml-0 md:ml-20 mb-10">
                     <h1 className="text-black">
                         Priorizamos o atendimento humanizado e personalizado, esse é o nosso diferencial, que apesar do Escritório ser Digital, optamos sempre que possível, dentro das possibilidades dos nossos clientes, pelo atendimento presencial ou por videoconferência.
                         Oferecemos suporte via WhatsApp todos os dias da semana para sanar eventuais dúvidas e esclarecer andamentos processuais relevantes.
