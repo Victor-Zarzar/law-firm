@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Escritório Baptista & Almeida Advogados Associados",
-  description: "Criado por Victor Zarzars",
+  description: "Criado por Victor Zarzar",
 };
 
 export default function RootLayout({

@@ -6,9 +6,9 @@ import { Button } from '@/components/ui/button';
 
 export default function TaxLaw() {
   return (
-    <div className='div mt-2'>
-      <div className="text-center bg-red-800 h-20 md:h-36">
-      <h1 className="text-white text-sm md:text-2xl p-7 md:p-14">Direito Tributário</h1>
+    <>
+      <div className="text-center bg-red-800 h-20 md:h-36 mt-2">
+        <h1 className="text-white text-sm md:text-2xl p-7 md:p-14">Direito Tributário</h1>
       </div>
       <div className='div container mx-auto mt-14 md:mt-14 mb-14 md:mb-20'>
         <Card className="w-[310px] h-[520px] md:w-[1400px] md:h-[620px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
@@ -45,6 +45,6 @@ export default function TaxLaw() {
           </CardFooter>
         </Card>
       </div>
-    </div>
+    </>
   )
 }
