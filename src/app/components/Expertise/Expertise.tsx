@@ -12,13 +12,13 @@ import Link from 'next/link'
 
 export default function Expertise() {
     return (
-        <div className="md:container mx-auto mt-10">
+        <div className="md:container mx-auto mt-10 md:mt-20">
             <h1 className="text-center text-xl md:text-2xl font-bold mb-16">Nossas áreas de atuação:</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 flex-wrap justify-content-space-between">
                 <div className="md:col-span-1">
-                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] lg:h-[28vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
-                            <CardDescription className="text-center text-sm md:text-lg text-black">Direito do Trabalho</CardDescription>
+                            <CardDescription className="text-center text-sm md:text-base text-black">Direito do Trabalho</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <Image
@@ -32,13 +32,13 @@ export default function Expertise() {
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
                             <Link href="/direitodotrabalho">
-                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900'>Mais info</Button>
+                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900 text-xs'>Mais info</Button>
                             </Link>
                         </CardFooter>
                     </Card>
-                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] lg:h-[28vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
-                            <CardDescription className="text-center text-sm md:text-lg text-black">Direito Civil</CardDescription>
+                            <CardDescription className="text-center text-sm md:text-base text-black">Direito Civil</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <Image
@@ -52,13 +52,13 @@ export default function Expertise() {
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
                             <Link href="/direitocivil">
-                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900'>Mais info</Button>
+                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900 text-xs'>Mais info</Button>
                             </Link>
                         </CardFooter>
                     </Card>
-                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] lg:h-[28vh] mb-10 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
-                            <CardDescription className="text-center text-sm md:text-lg text-black">Direito Tributário</CardDescription>
+                            <CardDescription className="text-center text-sm md:text-base text-black">Direito Tributário</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <Image
@@ -72,13 +72,13 @@ export default function Expertise() {
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
                             <Link href="/direitotributario">
-                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900'>Mais info</Button>
+                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900 text-xs'>Mais info</Button>
                             </Link>
                         </CardFooter>
                     </Card>
-                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] mb-10 md:mb-16 duration-300 hover:scale-105 hover:shadow-xl">
+                    <Card className="mx-auto w-5/6 md:w-full md:h-[26vh] lg:h-[28vh] mb-10 md:mb-16 duration-300 hover:scale-105 hover:shadow-xl">
                         <CardHeader>
-                            <CardDescription className="text-center text-sm md:text-lg text-black">Direito Previdenciário</CardDescription>
+                            <CardDescription className="text-center text-sm md:text-base text-black">Direito Previdenciário</CardDescription>
                         </CardHeader>
                         <CardContent>
                             <Image
@@ -92,12 +92,12 @@ export default function Expertise() {
                         </CardContent>
                         <CardFooter className="flex justify-center items-center">
                             <Link href="/direitoprevidenciario">
-                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900'>Mais info</Button>
+                                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900 text-xs'>Mais info</Button>
                             </Link>
                         </CardFooter>
                     </Card>
                 </div>
-                <div className="md:col-span-1 container text-center md:text-justify flex text-sm md:text-lg items-center ml-0 md:ml-20 mb-10">
+                <div className="md:col-span-1 container text-center md:text-justify flex text-sm md:text-base items-center ml-0 md:ml-2 lg:ml-14 mb-10">
                     <h1 className="text-black">
                         Priorizamos o atendimento humanizado e personalizado, esse é o nosso diferencial, que apesar do Escritório ser Digital, optamos sempre que possível, dentro das possibilidades dos nossos clientes, pelo atendimento presencial ou por videoconferência.
                         Oferecemos suporte via WhatsApp todos os dias da semana para sanar eventuais dúvidas e esclarecer andamentos processuais relevantes.

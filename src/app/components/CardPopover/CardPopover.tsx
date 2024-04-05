@@ -10,7 +10,7 @@ export default function CardPopover() {
     return (
         <Popover>
             <PopoverTrigger asChild>
-                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900'>Ler Mais...</Button>
+                <Button className='w-20 md:w-28 bg-red-800 hover:bg-red-900 text-xs'>Ler Mais...</Button>
             </PopoverTrigger>
             <PopoverContent className="w-[23rem] translate-y-56">
                 <h1 className='text text-sm text-center'>

@@ -14,16 +14,16 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="w-full max-w-[95rem] h-16 md:h-20">
+    <div className="w-full max-w-[95rem] h-16 md:h-16 lg:h-20">
       <div className="md:flex items-center justify-between py-4 md:py-0 md:px-10 px-6">
-        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1 ml-10 md:ml-40">
+        <div className="font-bold text-2xl cursor-pointer flex items-center gap-1 ml-10 md:ml-16 lg:ml-40">
           <Image
             src="/law.png"
             alt="law"
             width={300}
             height={300}
             priority
-            className="h-9 w-10 md:w-10 md:h-10 lg:w-20 lg:h-20"
+            className="h-9 w-10 md:w-16 md:h-16 lg:w-20 lg:h-20"
           />
         </div>
         <div

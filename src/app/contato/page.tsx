@@ -27,9 +27,9 @@ export default function Contact() {
   return (
     <div className='div mt-2'>
       <div className="text-center bg-red-800 h-36">
-        <h1 className="p-6 text-white text-sm md:text-lg">Vamos conversar?
+        <h1 className="p-6 text-white text-sm md:text-base">Vamos conversar?
         </h1>
-        <p className="text-white text-sm md:text-lg">Entre em contato com nosso escritório de advocacia e descubra como nossos advogados podem te ajudar!</p>
+        <p className="text-white text-sm md:text-base">Entre em contato com nosso escritório de advocacia e descubra como nossos advogados podem te ajudar!</p>
       </div>
       <div className="form container text-center mt-20">
         <h1 className="h1-form text-black font-bold text-xl md:text-2xl">Preencha o Formulário</h1>
