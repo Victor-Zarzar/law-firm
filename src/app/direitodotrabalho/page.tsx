@@ -10,7 +10,7 @@ export default function LaborLaw() {
       <div className="text-center bg-red-800 h-20 md:h-36 mt-2">
         <h1 className="text-white text-sm md:text-xl p-7 md:p-14">Direito do Trabalho</h1>
       </div>
-      <div className='div h-2/3 container mx-auto mt-14 md:mt-14 mb-14 md:mb-20'>
+      <div className='div h-5/6 container mx-auto mt-14 md:mt-14 mb-14 md:mb-20'>
         <Card className="w-[310px] h-[620px] md:w-[650px] md:h-[650px] lg:w-[950px] lg:h-[620px] mx-auto mb-4 md:mb-8 duration-300 hover:scale-105 hover:shadow-xl">
           <CardHeader>
           </CardHeader>
